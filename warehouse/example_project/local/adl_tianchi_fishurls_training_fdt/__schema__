@@ -1,0 +1,4 @@
+project=local
+table=adl_tianchi_fishurls_training_fdt
+columns=id:STRING,content:STRING
+partitions=dt:STRING

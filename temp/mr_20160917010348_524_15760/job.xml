@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><configuration>
+<property><name>odps.mapred.reduce.class</name><value>hadoop.TianchiMapreduce.Fish$MyReducer</value></property>
+<property><name>odps.mapred.local.download.mode</name><value>AUTO</value></property>
+<property><name>odps.mapred.local.record.download.limit</name><value>100</value></property>
+<property><name>odps.mapred.map.class</name><value>hadoop.TianchiMapreduce.Fish$MyMapper</value></property>
+<property><name>odps.mapred.output.desc</name><value>[{"tblName":"fishurls_submit","partSpec":{},"label":"__default__"}]</value></property>
+<property><name>odps.mapred.resources</name><value/></property>
+<property><name>odps.mapred.mapoutput.key.schema</name><value>id:STRING</value></property>
+<property><name>odps.mapred.job.name</name><value>mr_20160917010348_524_15760</value></property>
+<property><name>odps.mapred.mapoutput.value.schema</name><value>content:STRING</value></property>
+<property><name>odps.mapred.local.temp.retain</name><value>false</value></property>
+<property><name>odps.mapred.input.desc</name><value>[{"tblName":"adl_tianchi_fishurls_training_fdt","partSpec":{},"label":"__default__"}]</value></property>
+</configuration>
